@@ -142,7 +142,7 @@ def start(start):
 #Start and End Date Route
 
 @app.route("/api/v1.0/temp/<start>/<end>")
-def end(start):
+def end(start, end):
     start_date = start
     end_date = end
     
